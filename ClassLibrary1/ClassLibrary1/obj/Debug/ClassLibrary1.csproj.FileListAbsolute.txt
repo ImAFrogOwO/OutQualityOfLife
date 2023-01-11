@@ -1,0 +1,8 @@
+D:\GithubClones\OutQualityOfLife\ClassLibrary1\ClassLibrary1\bin\Debug\OutQualityOfLive.dll
+D:\GithubClones\OutQualityOfLife\ClassLibrary1\ClassLibrary1\bin\Debug\OutQualityOfLive.pdb
+D:\GithubClones\OutQualityOfLife\ClassLibrary1\ClassLibrary1\obj\Debug\ClassLibrary1.csproj.AssemblyReference.cache
+D:\GithubClones\OutQualityOfLife\ClassLibrary1\ClassLibrary1\obj\Debug\ClassLibrary1.csproj.CoreCompileInputs.cache
+D:\GithubClones\OutQualityOfLife\ClassLibrary1\ClassLibrary1\obj\Debug\OutQualityOfLive.dll
+D:\GithubClones\OutQualityOfLife\ClassLibrary1\ClassLibrary1\obj\Debug\OutQualityOfLive.pdb
+D:\SteamLibrary\steamapps\common\Outpath First Journey\Mods\OutQualityOfLive.dll
+D:\SteamLibrary\steamapps\common\Outpath First Journey\Mods\OutQualityOfLive.pdb

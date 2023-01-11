@@ -1,10 +1,10 @@
-﻿using MelonLoader;
-using System;
+﻿using System;
 using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
+using MelonLoader;
 
-[assembly: MelonInfo(typeof(ClassLibrary1.Core), "Idk", "0.0.1", "RSM")]
+[assembly: MelonInfo(typeof(F4Save.Core), "F4Save", "0.0.1", "RSM")]
 [assembly: MelonGame("DAVII PROJECTS", "Outpath")]
 [assembly: MelonColor(ConsoleColor.DarkCyan)]
 [assembly: MelonAuthorColor(ConsoleColor.Cyan)]
@@ -13,11 +13,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("ClassLibrary1")]
+[assembly: AssemblyTitle("F4Save")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("ClassLibrary1")]
+[assembly: AssemblyProduct("F4Save")]
 [assembly: AssemblyCopyright("Copyright ©  2023")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -28,7 +28,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("25f4d165-a6f0-46d9-bc92-4f193a8ada8d")]
+[assembly: Guid("716b83d6-2890-4285-be59-fe14df13e827")]
 
 // Version information for an assembly consists of the following four values:
 //
