@@ -1,0 +1,6 @@
+D:\SteamLibrary\steamapps\common\Outpath First Journey\Mods\Pickblock.dll
+D:\SteamLibrary\steamapps\common\Outpath First Journey\Mods\Pickblock.pdb
+D:\GithubClones\OutQualityOfLife\Pickblock\Pickblock\obj\Debug\Pickblock.csproj.AssemblyReference.cache
+D:\GithubClones\OutQualityOfLife\Pickblock\Pickblock\obj\Debug\Pickblock.csproj.CoreCompileInputs.cache
+D:\GithubClones\OutQualityOfLife\Pickblock\Pickblock\obj\Debug\Pickblock.dll
+D:\GithubClones\OutQualityOfLife\Pickblock\Pickblock\obj\Debug\Pickblock.pdb

@@ -36,18 +36,21 @@ namespace ClassLibrary1.Notifiers
                 else
                 {
 
-                    Rigidbody a = Spreader.gameObject.GetComponentInChildren<Rigidbody>(true);
-                    TextMeshPro bb = a.gameObject.AddComponent<TextMeshPro>();
+                    if (Spreader.GetComponentInChildren<SpriteRenderer>() == false)
+                    {
 
-                    bb.text = "Range: " + Spreader.range.ToString() + "\nTime " + Spreader.timeToPlant.ToString();
-                    bb.alignment = TextAlignmentOptions.Center;
-                    bb.isOverlay = true;
-                    bb.fontSize = 3;
-                    bb.outlineColor = new Color32(255, 128, 0, 255);
-                    bb.transform.position += new Vector3(0, 2, 0);
+                        Rigidbody a = Spreader.gameObject.GetComponentInChildren<Rigidbody>(true);
+                        TextMeshPro bb = a.gameObject.AddComponent<TextMeshPro>();
 
+                        bb.text = "Range: " + Spreader.range.ToString() + "\nTime " + Spreader.timeToPlant.ToString();
+                        bb.alignment = TextAlignmentOptions.Center;
+                        bb.isOverlay = true;
+                        bb.fontSize = 3;
+                        bb.outlineColor = new Color32(255, 128, 0, 255);
+                        bb.transform.position += new Vector3(0, 2, 0);
+
+                    }
                     CanRotate();
-
                 }
 
             }
@@ -73,7 +76,7 @@ namespace ClassLibrary1.Notifiers
                     TextMeshPro bb = null;
 
 
-                    if (bb == null && Spreader.GetComponentInChildren<SpriteRenderer>() == false)
+                    if (Spreader.GetComponentInChildren<SpriteRenderer>() == false)
                     {
                         Rigidbody a = Spreader.gameObject.GetComponentInChildren<Rigidbody>();
                         bb = a.gameObject.AddComponent<TextMeshPro>();
@@ -83,9 +86,7 @@ namespace ClassLibrary1.Notifiers
                         bb.fontSize = 3;
                         bb.transform.position += new Vector3(0, 2, 0);
                     }
-
                     CanRotate();
-
                 }
 
             }
@@ -121,9 +122,7 @@ namespace ClassLibrary1.Notifiers
                         bb.fontSize = 3;
                         bb.transform.position += new Vector3(0, 2, 0);
                     }
-
                     CanRotate();
-
                 }
 
             }
