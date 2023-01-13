@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 using MelonLoader;
@@ -28,6 +29,14 @@ namespace Pickblock
                 }
 
             }
+
+            if (Input.GetKeyDown(KeyCode.N))
+            {
+
+                IslandsManager.instance.EnableAllIslands();
+
+            }
+
         }
 
     }
